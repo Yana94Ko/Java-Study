@@ -1,8 +1,8 @@
-package 배열;
+
 
 import java.util.*;
 
-public class ArrayEx10 {
+public class MelonBread {
     public static void main(String[] args) {
         int bananaMilk = 0;
         int melonPpang = 0;

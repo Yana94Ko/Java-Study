@@ -1,7 +1,7 @@
 package 정렬;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
+// import java.lang.reflect.Array;
+// import java.util.Arrays;
 
 //퀵 정렬
 public class SortEx03 {
