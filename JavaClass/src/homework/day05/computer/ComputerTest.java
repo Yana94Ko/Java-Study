@@ -24,7 +24,7 @@ class Computer {
     }
     
     Computer(){
-        System.out.println("Start progress...");
+        System.out.println("Show information...");
         Notebook notebook = new Notebook("ASUS","TUF GAMING_RTX 3050TI",1839000);
         Monitor monitor = new Monitor("SAMSUNG","Curved C27F390F", 237000);
         Keybord keybord = new Keybord("씽크웨이", "TOCHEF BW", 149750);
