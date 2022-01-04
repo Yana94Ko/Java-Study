@@ -52,28 +52,38 @@ class RSP extends Player {
             switch (what[1]){
                 case "가위" :
                     result = "비겼습니다";
+                    break;
                 case "바위" :
                     result = player[1]+"(이)가 이겼습니다";
+                    break;
                 case "보" :
                     result = player[0]+"(이)가 이겼습니다";
+                    break;
             }
         }else if(what[0]=="바위"){
             switch (what[1]){
                 case "가위" :
                     result = player[0]+"(이)가 이겼습니다";
+                    break;
                 case "바위" :
                     result = "비겼습니다";
+                    break;
                 case "보" :
                     result = player[1]+"(이)가 이겼습니다";
+                    break;
             }
         } else {
             switch (what[1]){
                 case "가위" : 
                     result = player[1]+"(이)가 이겼습니다";
+                    break;
                 case "바위" :
                     result = player[0]+"(이)가 이겼습니다";
+                    break;
                 case "보" :
                     result = "비겼습니다";
+                    break;
+
             }
         }
 

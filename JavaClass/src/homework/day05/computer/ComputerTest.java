@@ -24,11 +24,11 @@ class Computer {
     }
     
     Computer(){
-        System.out.println("Show information...");
-        Notebook notebook = new Notebook("ASUS","TUF GAMING_RTX 3050TI",1839000);
-        Monitor monitor = new Monitor("SAMSUNG","Curved C27F390F", 237000);
-        Keybord keybord = new Keybord("씽크웨이", "TOCHEF BW", 149750);
-        Mouse mouse = new Mouse("logitech", "M350", 21150);
+        // System.out.println("Show information...");
+        // Notebook notebook = new Notebook("ASUS","TUF GAMING_RTX 3050TI",1839000);
+        // Monitor monitor = new Monitor("SAMSUNG","Curved C27F390F", 237000);
+        // Keybord keybord = new Keybord("씽크웨이", "TOCHEF BW", 149750);
+        // Mouse mouse = new Mouse("logitech", "M350", 21150);
         price = Notebook.getPrice() + Monitor.getPrice() + Keybord.getPrice() + Mouse.getPrice();
     }
     public void powerOnOff(){
@@ -73,7 +73,7 @@ class ComputerParts {
         this.model = model;
     }
     public void setPrice(int price) {
-        this.price = price;
+        ComputerParts.price = price;
     }   
 
     public void setInfo(String brand, String model,int price){

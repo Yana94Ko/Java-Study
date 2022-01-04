@@ -1,7 +1,5 @@
 package homework.day05;
 
-import java.util.Arrays;
-
 public class Lottery {
     public static void main(String[] args) {
         LotteryMachine m = new LotteryMachine();
